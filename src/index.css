@@ -1,0 +1,30 @@
+body{
+    background: lightblue;
+    height: 100%;
+    overflow: hidden;
+}
+.jokeModal{
+    width: 600px;
+    max-width: 100%;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.jokeModal button{
+    background: lightblue;
+    color: darkgrey;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+.jokeModal button:focus{
+    outline: none;
+}
+.jokeModal button:active{
+    transform: scale(0.98);
+}
